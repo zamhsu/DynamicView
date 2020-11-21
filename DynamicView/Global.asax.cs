@@ -1,3 +1,4 @@
+using DynamicView.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace DynamicView
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            ViewEngines.Engines.Insert(0, new CustomRazorViewEngine()); //找不到Themes時，就找最上層的Views
         }
     }
 }

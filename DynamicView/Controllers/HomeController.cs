@@ -13,5 +13,11 @@ namespace DynamicView.Controllers
         {
             return View();
         }
+
+        public ActionResult ChangeTheme(string theme)
+        {
+            Response.Cookies.Add(new HttpCookie("theme", theme));
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -96,6 +96,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jumboltron.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -197,6 +198,7 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Themes\Carousel\Content\carousel.css" />
+    <Content Include="Themes\Product\Content\product.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -228,6 +230,9 @@
     <Content Include="Themes\Carousel\Views\Home\Index.cshtml" />
     <Content Include="Themes\Carousel\Views\Shared\_Layout.cshtml" />
     <Content Include="Themes\Carousel\Views\web.config" />
+    <Content Include="Themes\Product\Views\Home\Index.cshtml" />
+    <Content Include="Themes\Product\Views\Shared\_Layout.cshtml" />
+    <Content Include="Themes\Product\Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
